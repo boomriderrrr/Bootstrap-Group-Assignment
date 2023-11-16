@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overview</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
 </head>
+
 <body>
     <div class="wrapper">
         <aside id="sidebar">
             <div class="h-100">
                 <div class="sidebar-logo">
-                    <a href="#"><svg class="pe-3" width="50" height="50" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="16" cy="16" r="16" fill="#3751FF"/>
-                        <path d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z" fill="url(#paint0_linear_7_550)"/>
-                        <defs>
-                        <linearGradient id="paint0_linear_7_550" x1="11" y1="9" x2="23" y2="23" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.7"/>
-                        <stop offset="1" stop-color="white"/>
-                        </linearGradient>
-                        </defs>
+                    <a href="#"><svg class="pe-3" width="50" height="50" viewBox="0 0 32 32" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="#3751FF" />
+                            <path
+                                d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z"
+                                fill="url(#paint0_linear_7_550)" />
+                            <defs>
+                                <linearGradient id="paint0_linear_7_550" x1="11" y1="9" x2="23" y2="23"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="white" stop-opacity="0.7" />
+                                    <stop offset="1" stop-color="white" />
+                                </linearGradient>
+                            </defs>
                         </svg>
                         Dashboard Kit</a>
                 </div>
@@ -57,36 +68,39 @@
         </aside>
         <div class="main">
             <nav class="navbar bg-body-tertiary px-4">
-                <div class="container-fluid">
-                  <a class="navbar-brand">Overview</a>
-                  <div class="d-flex navbar">
-                    <ul class="navbar-nav list-group-horizontal">
-                        <li class="nav-item">
-                            <a href="#" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="link"><i class="fa-solid fa-bell"></i></a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <div class="container-fluid"><hr></div>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Jones Ferdinand</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-icon pe-md-0">
-                                <img src="img/IMG_2261.jpg" class="avatar img-fluid rounded-circle" alt="profile-picture">
-                            </a>
-                        </li>
-                    </ul>
+                <div class="container-fluid ">
+                    <a class="navbar-brand">Overview</a>
+                    <div class="d-flex navbar">
+                        <ul class="navbar-nav list-group-horizontal">
+                            <li class="nav-item">
+                                <a href="#" class="link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="link"><i class="fa-solid fa-bell"></i></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <div class="container-fluid">
+                                    <hr>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link d-sm-none d-md-block" href="#">Jones Ferdinand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-icon pe-md-0">
+                                    <img src="img/IMG_2261.jpg" class="avatar img-fluid rounded-circle"
+                                        alt="profile-picture">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                </div>
-              </nav>
-              <div class="container-fluid px-5">
-                <div class="row g-3 my-2">
-                    <div class="col-md-3">
+            </nav>
+            <div class="container-fluid">
+                <div class="row g-3 px-4 mt-4">
+                    <div class="col-lg-3">
                         <div class="card rounded">
                             <div>
                                 <h6 class="fs-6">Unresolved</h6>
@@ -94,7 +108,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="card rounded">
                             <div>
                                 <h6 class="fs-6">Overdue</h6>
@@ -102,7 +116,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="card rounded">
                             <div>
                                 <h6 class="fs-6">Open</h6>
@@ -110,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3">
                         <div class="card rounded">
                             <div>
                                 <h6 class="fs-6">On hold</h6>
@@ -120,10 +134,188 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container-fluid px-5 mt-4">
+                <div class="row d-flex bg-white border border-2-light rounded">
+                    <div class="col-lg-8 p-4">
+                        <div>
+                            <div class="navbar-brand">Today's trends</div>
+                            <p class="fs-6 mb-3"><small>as of 25 May 2019, 09:41 PM</small></p>
+                        </div>
+                        
+                        <canvas id="lineChart"></canvas>
+                        <script>
+                            var ctxL = document.getElementById("lineChart").getContext('2d');
+                            var myLineChart = new Chart(ctxL, {
+                                type: 'line',
+                                data: {
+                                    labels: ["January", "February", "March", "April", "May"],
+                                    datasets: [{
+                                        label: "Today",
+                                        data: [65, 59, 80, 81, 56, 55, 40],
+                                        backgroundColor: [
+                                            'rgba(55, 81, 255, .2)',
+                                        ],
+                                        borderColor: [
+                                            'rgba(55, 81, 255, .7)',
+                                        ],
+                                        borderWidth: 2
+                                    },
+                                    {
+                                        label: "Yesterday",
+                                        data: [28, 48, 40, 19, 86, 27, 90],
+                                        backgroundColor: [
+                                            'rgba(223, 224, 235, .2)',
+                                        ],
+                                        borderColor: [
+                                            'none',
+                                        ],
+                                        borderWidth: 2
+                                    }
+                                    ]
+                                },
+                                options: {
+                                    responsive: true
+                                }
+                            });
+                        </script>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="list-group list-group-flush pt-2">
+                            <li class="list-group-item d-flex justify-content-center py-2">
+                                <div>
+                                    <p class="fs-6 d-flex justify-content-center">Resolved</p>
+                                    <h3 class="fs-4 d-flex justify-content-center">449</h3>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center py-2">
+                                <div>
+                                    <p class="fs-6 d-flex justify-content-center">Received</p>
+                                    <h3 class="fs-4 d-flex justify-content-center">426</h3>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center py-2">
+                                <div>
+                                    <p class="fs-6 d-flex justify-content-center">Average first response time</p>
+                                    <h3 class="fs-4 d-flex justify-content-center">33m</h3>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center py-2">
+                                <div>
+                                    <p class="fs-6 d-flex justify-content-center">Average response time</p>
+                                    <h3 class="fs-4 d-flex justify-content-center">3h 8m</h3>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center py-2">
+                                <div>
+                                    <p class="fs-6 d-flex justify-content-center">Resolution within SLA</p>
+                                    <h3 class="fs-4 d-flex justify-content-center">94%</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row mt-2 mb-4 g-3 px-4">
+                    <div class="col-lg-6">
+                        <div class="bg-white border border-2-light rounded">
+                            <div class="px-4 pt-4 d-flex justify-content-between">
+                                <div>
+                                    <div class="navbar-brand">Unresolved tickets</div>
+                                    <p class="fs-6 mb-3"><small>Group: <span>Sport</span></small></p>
+                                </div>
+                                <div>
+                                    <a href="#"><small>View details</small></a>
+                                </div> 
+                            </div>
+                            
+                            <ul class="list-group list-group-flush pb-2">
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <small>Waiting on Feature Request</small>
+                                    <small class="sm-grey">4238</small>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <small>Awaiting Customer Response</small>
+                                    <small class="sm-grey">1005</small>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <small>Awaiting Developer Fix</small>
+                                    <small class="sm-grey">914</small>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <small>Pending</small>
+                                    <small class="sm-grey">281</small>
+                                </li>
+                              </ul>
+                            
+                        </div>
+
+                        
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-white border border-2-light rounded">
+                            <div class="px-4 pt-4 d-flex justify-content-between">
+                                <div>
+                                    <div class="navbar-brand">Tasks</div>
+                                    <p class="fs-6 mb-3"><small>Today</small></p>
+                                </div>
+                                <div>
+                                    <a href="#"><small>View all</small></a>
+                                </div>
+                            </div>
+
+                            <ul class="list-group list-group-flush pb-2">
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <a class="fs-6"><small>Create new task</small></a>
+                                    <h6 class="badge text-bg-light text-secondary p-1"><i class="fa-solid fa-plus"></i></h6>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <div class="checkbox checkbox-primary checkbox-circle">
+                                        <input id="c1" type="checkbox" />
+                                        <label for="c1">
+                                            Finish ticket update
+                                        </label>
+                                    </div>
+                                    <h6 class="badge text-bg-warning text-white">URGENT</h6>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <div class="checkbox checkbox-primary checkbox-circle">
+                                        <input id="c2" type="checkbox" />
+                                        <label for="c2">
+                                            Create new ticket example
+                                        </label>
+                                    </div>
+                                    <h6 class="badge text-bg-success text-white">NEW</h6>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between px-4 py-3">
+                                    <div class="checkbox checkbox-primary checkbox-circle">
+                                        <input id="c3" type="checkbox" checked />
+                                        <label for="c3">
+                                            Update ticket report
+                                        </label>
+                                    </div>
+                                    <h6 class="badge text-bg-light text-secondary">DEFAULT</h6>
+                                </li>
+                              </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
         </div>
     </div>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
