@@ -80,3 +80,59 @@ a.sidebar-link-active {
 hr {
     border: .5px solid #DFE0EB;
 }
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border: solid 1px #A4A6B3;
+    padding: 2px;
+}
+
+.navbar-expand .navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    margin: 0px 10px;
+}
+
+a.link {
+    padding: .5rem .5rem;
+    color: #A4A6B3;
+    position: relative;
+    display: block;
+    font-size: 0.875rem;
+    transition: all .5s;
+}
+
+.fs-6 {
+    color: #9FA2B4;
+    transition: all .5s;
+}
+
+.fs-2 {
+    color: black;
+    transition: all .5s;
+}
+
+.card {
+    cursor: pointer;
+    padding: 1.5rem;
+    border: solid 2px #DFE0EB;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    transition: all .5s;
+}
+
+.card:hover {
+    border: solid 2px #3751FF;
+}
+
+.card:hover .fs-6{
+    color: #3751FF;
+}
+
+.card:hover .fs-2{
+    color: #3751FF;
+}
