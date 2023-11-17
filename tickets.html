@@ -77,49 +77,276 @@
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-icon pe-md-0">
-                                <img src="img/IMG_2261.jpg" class="avatar img-fluid rounded-circle" alt="profile-picture">
+                                <img src="img/IMG_2261.jpg" class="avatar rounded-circle" alt="profile-picture">
                             </a>
                         </li>
                     </ul>
                 </div>
                 </div>
               </nav>
-              <div class="container-fluid px-5">
-                <div class="row g-3 my-2">
-                    <div class="col-md-3">
-                        <div class="card rounded">
-                            <div>
-                                <h6 class="fs-6">Unresolved</h6>
-                                <h3 class="fs-2">60</h3>
+              
+              <div class="container-fluid">
+                <div class="row mt-2 mb-4 g-3 px-4">
+                    <div>
+                        <div class="p-4 bg-white border border-2-light rounded">
+                        
+                            <div class="px-4 pb-4 d-flex justify-content-between">
+                                <div>
+                                    <div class="navbar-brand">All tickets</div>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="d-flex px-2">
+                                        <a href="#" class="fs-6"><i class="fa-solid fa-arrow-up-wide-short px-2"></i></a>
+                                        <h6><small>Sort</small></h6>
+                                    </div> 
+                                    <div class="d-flex px-2">
+                                        <a href="#" class="fs-6"><i class="fa-solid fa-filter px-2"></i></i></a>
+                                        <h6><small>Filter</small></h6>
+                                    </div> 
+                                </div>
+                                
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card rounded">
-                            <div>
-                                <h6 class="fs-6">Overdue</h6>
-                                <h3 class="fs-2">16</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card rounded">
-                            <div>
-                                <h6 class="fs-6">Open</h6>
-                                <h3 class="fs-2">43</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card rounded">
-                            <div>
-                                <h6 class="fs-6">On hold</h6>
-                                <h3 class="fs-2">64</h3>
-                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                  <thead>
+                                    <tr>
+                                      <th scope="col"><h6 class="fs-6">Ticket details</h6></th>
+                                      <th scope="col"><h6 class="fs-6">Customer name</h6></th>
+                                      <th scope="col"><h6 class="fs-6">Date</h6></th>
+                                      <th scope="col"><h6 class="fs-6">Priority</h6></th>
+                                      <th scope="col"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Contact Email not Linked</small></h6>
+                                                <span class="fs-6"><small>Updated 1 day ago</small></span>
+                                            </div>
+                                        </div>
+                                        
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Tom Cruise</small></h6>
+                                            <span class="fs-6"><small>on 24.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 26, 2019</small></h6>
+                                            <span class="fs-6"><small>6:30 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <span class="badge rounded-pill text-bg-danger">HIGH</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Adding Images to Featured Posts</small></h6>
+                                                <span class="fs-6"><small>Updated 1 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Matt Damon</small></h6>
+                                            <span class="fs-6"><small>on 24.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 26, 2019</small></h6>
+                                            <span class="fs-6"><small>8:00 AM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-warning text-white">LOW</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>When will I be charged this month?</small></h6>
+                                                <span class="fs-6"><small>Updated 1 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Robert Downey</small></h6>
+                                            <span class="fs-6"><small>on 24.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 26, 2019</small></h6>
+                                            <span class="fs-6"><small>7:30 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-danger">HIGH</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Payment not going through</small></h6>
+                                                <span class="fs-6"><small>Updated 2 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Christian Bale</small></h6>
+                                            <span class="fs-6"><small>on 24.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 25, 2019</small></h6>
+                                            <span class="fs-6"><small>5:00 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-success">NORMAL</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Unable to add replies</small></h6>
+                                                <span class="fs-6"><small>Updated 2 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Henry Cavil</small></h6>
+                                            <span class="fs-6"><small>on 24.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 25, 2019</small></h6>
+                                            <span class="fs-6"><small>4:00 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-danger">HIGH</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Downtime since last week</small></h6>
+                                                <span class="fs-6"><small>Updated 3 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Chris Evans</small></h6>
+                                            <span class="fs-6"><small>on 23.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 25, 2019</small></h6>
+                                            <span class="fs-6"><small>2:00 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-success">NORMAL</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>Referral Bonus</small></h6>
+                                                <span class="fs-6"><small>Updated 4 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Sam Smith</small></h6>
+                                            <span class="fs-6"><small>on 22.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 25, 2019</small></h6>
+                                            <span class="fs-6"><small>11:30 AM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-warning text-white">LOW</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td>
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/IMG_2261.jpg" class="avatar rounded-circle me-3" alt="profile-picture">
+                                            <div>
+                                                <h6><small>How do I change my password?</small></h6>
+                                                <span class="fs-6"><small>Updated 6 day ago</small></span>
+                                            </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>Steve Rogers</small></h6>
+                                            <span class="fs-6"><small>on 21.05.2019</small></span>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div>
+                                            <h6><small>May 24, 2019</small></h6>
+                                            <span class="fs-6"><small>1:00 PM</small></span>
+                                        </div>
+                                      </td>
+                                      <td><span class="badge rounded-pill text-bg-success">NORMAL</span></td>
+                                      <td>
+                                        <a href="#" class="fs-6 px-4"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                                      </td>
+                                    </tr>
+                                    
+                                  </tbody>
+                                </table>
+                              </div>
+
                         </div>
                     </div>
                 </div>
-            </div>
+              </div>
+
         </div>
     </div>
     
