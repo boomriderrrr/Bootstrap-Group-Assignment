@@ -1,14 +1,14 @@
 {
     "tickets":[
         {
-        "ticket_nav" : "Transactions",
-        "ticket_data" : "18,417",
-        "ticket_sub" : "7.34% More than last month"
+        "ticket_heading" : "Transactions",
+        "ticket_data" : "31,426",
+        "ticket_sub" : "8.80% Increased the number"
         },
         {
-        "ticket_nav" : "Approvals",
-        "ticket_data" : "9,564",
-        "ticket_sub" : "3.18% Going down"
+        "ticket_heading" : "Approvals",
+        "ticket_data" : "10,239",
+        "ticket_sub" : "2.10% Lower than usual"
         }
     ]
 }

@@ -7,14 +7,14 @@ async function getValues() {
 
         console.log({response});
 
-        const ticketNav = document.querySelectorAll('.ticket-nav')
+        const ticketHeading = document.querySelectorAll('.ticket-heading')
         const ticketData = document.querySelectorAll('.ticket-data')
         const ticketSub = document.querySelectorAll('.ticket-sub')
     
-        ticketNav.forEach((temp, index) => {
+        ticketHeading.forEach((temp, index) => {
             //console.log(temp);
             let pTicket = document.createElement('p');
-            pTicket.innerHTML = response.tickets[index].ticket_nav;
+            pTicket.innerHTML = response.tickets[index].ticket_heading;
             temp.appendChild(pTicket);
         })
         ticketData.forEach((temp, index) => {
