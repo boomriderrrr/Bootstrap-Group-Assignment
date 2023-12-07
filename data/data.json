@@ -1,12 +1,12 @@
 {
     "tickets":[
         {
-        "ticket_heading" : "Transactions",
+        "ticket_heading" : "Proceedings",
         "ticket_data" : "31,426",
         "ticket_sub" : "8.80% Increased the number"
         },
         {
-        "ticket_heading" : "Approvals",
+        "ticket_heading" : "Commendation",
         "ticket_data" : "10,239",
         "ticket_sub" : "2.10% Lower than usual"
         }
